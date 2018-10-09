@@ -1,0 +1,251 @@
+/*colores:
+naranja: #ef553e;
+gris:    #c9c9c9;
+morado:  #a35668;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    margin: 0px;
+    padding: 100px 0px 0px 0px;
+    background-color: #c9c9c9;
+}
+.contenedor_wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    
+}
+header{
+    position: relative;
+}
+header img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #c9c9c9;
+    position: absolute;
+    left: 50%;
+    margin-left: -105px;
+    margin-top: -105px;
+}
+header h2{
+    width: 90%;
+    margin: auto;
+    padding: 110px 0px 22px 0px;
+    text-align: center;
+    color:rgb(58, 58, 58);
+    border-bottom: 1px solid #c9c9c9;
+}
+header h2 span{
+    color: #ef553e;
+}
+.titulo{
+    color: #ef553e;
+    padding: 20px 0px;
+    text-align: center;
+}
+.descripcion{
+    padding-top: 10px;
+    text-align: center;
+    margin: 0px 5px;
+    color: rgb(100, 100, 100);
+}
+/*acerca de*/
+#acerca_de p{
+    text-align: center;
+    padding: 0px 5px;
+    color: rgb(100, 100, 100);
+}
+/*educacion*/
+.fecha{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight:bold;
+    color: rgb(100, 100, 100);
+
+}
+.edu{
+    background-color: #ebebeb;
+    border-radius: 5%;
+    
+}
+
+#experiencia .año{
+    text-align: center;
+    margin: auto;
+}
+/*experiencia*/
+    .año{
+        font-size: .8em;
+        color: rgb(100, 100, 100);
+    }
+/*contacto*/
+#contacto ul li{
+    text-align: center;
+    list-style: none;
+    padding: 2px 0px;
+    color: rgb(100, 100, 100);
+}
+/*skills*/
+#skills{
+    
+}
+.caja{
+    background-color: #ef553e;
+    margin: 0px 5px 10px 5px;
+    
+}
+.caja p{
+    color: #fff;
+    padding-left: 5px;
+}
+.html{
+    width: 80%;
+}
+.css{
+    width: 60%;
+}
+.js{
+    width: 40%;
+}
+.php{
+    width: 25%;
+}
+
+/*idiomas*/
+
+#idiomas .est span{
+    color: #ef553e;
+}
+/*hobbies*/
+#hobbies p{
+    background-color: #a35668;
+    color: #fff;
+    border-radius: 5%;
+    margin: 10px 5px;
+    padding: 2px 5px;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    
+}
+footer p{
+    width: 90%;
+    border-top: 1px solid #c9c9c9;
+    color: #c9c9c9;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (min-width: 800px){
+
+.derecha{
+    width: 60%;
+    display: table-cell;
+    padding: 10px;
+}
+.izquierda{
+    width: 40%;
+    display: table-cell;
+    padding: 10px;
+}
+.titulo{
+    color: #ef553e;
+    padding: 20px 0px;
+    text-align: left; 
+}
+
+/*acerca de*/
+
+#acerca_de p{
+    text-align: justify;
+    padding: 0px 0px;
+    color: rgb(100, 100, 100);
+}
+
+/*educacion*/
+
+.educacion_1{
+    margin-bottom: 10px;
+}
+.fecha{
+    width: 15%;
+    display: table-cell;
+    text-align: left;
+    font-weight:bold;
+    color: rgb(100, 100, 100);
+}
+.descripcion{
+    width: 85%;
+    display: table-cell;
+    padding: 10px 10px;
+    text-align: left;
+    margin: 0px 0px;
+    color: rgb(100, 100, 100);
+}
+.edu{
+    background-color: #ebebeb;
+    border-radius: 5%;
+    
+}
+
+#experiencia .año{
+    text-align: center;
+    margin: auto;
+}
+
+/*contacto*/
+
+#contacto ul li{
+    text-align: left;
+    list-style: none;
+    padding: 2px 0px;
+    color: rgb(100, 100, 100);
+}
+
+/*idiomas*/
+
+#idiomas .est span{
+    color: #ef553e;
+}
+.ingles{
+    width: 100%;
+}
+.espanol{
+    width: 100%;
+}
+.fecha{
+    width: 10%;
+}
+.est{
+    width: 90%;
+    font-size: 1.5em; 
+    text-align: right;
+    padding-left: 50px;
+}
+/*hobbies*/
+#hobbies p{
+    background-color: #a35668;
+    display: inline;
+    color: #fff;
+    border-radius: 5%;
+    margin: 10px 0px;
+    padding: 2px 5px;
+}
+
+/*footer*/
+
+footer p{
+    text-align: right;
+}
+
